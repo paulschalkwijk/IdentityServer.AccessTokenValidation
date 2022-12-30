@@ -8,14 +8,14 @@
     <PackageIcon>qrl-icon.png</PackageIcon>
 <PackageIcon>qrl-icon.png</PackageIcon>
     
-    <PackageId>$(AssemblyName)</PackageId>
+    <PackageId>QRL-$(AssemblyName)</PackageId>
     <PackageIcon>qrl-icon.png</PackageIcon>
     <Title>QR-Linked identity server access token validation</Title>
-    <AssemblyName>QR-Linked Identity server</AssemblyName>
-    <Version>2.0.0.0</Version>
+    <AssemblyName>QR-Linked Identity server Access token validation</AssemblyName>
+    <Version>1.0.0</Version>
     <Authors>Paul Schalkwijk</Authors>
     <Company>QR-Linked, Netherlands</Company>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
   
   <PropertyGroup>    
