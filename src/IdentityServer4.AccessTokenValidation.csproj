@@ -3,15 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>disable</Nullable>
-    <OutputType>Library</OutputType><PackageIcon>qrl-icon.png</PackageIcon>
-    
-    <PackageIcon>qrl-icon.png</PackageIcon>
-<PackageIcon>qrl-icon.png</PackageIcon>
-    
+    <OutputType>Library</OutputType>   
     <PackageId>QRL-$(AssemblyName)</PackageId>
     <PackageIcon>qrl-icon.png</PackageIcon>
-    <Title>QR-Linked identity server access token validation</Title>
-    <AssemblyName>QR-Linked Identity server Access token validation</AssemblyName>
+    <Title>QR-Linked Access token validation</Title>
+    <AssemblyName>QR-Linked Access token validation</AssemblyName>
     <Version>1.0.0</Version>
     <Authors>Paul Schalkwijk</Authors>
     <Company>QR-Linked, Netherlands</Company>
@@ -27,7 +23,6 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
-    <PackageIcon>qrl-icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -44,7 +39,6 @@
   
   <ItemGroup>
     <PackageReference Include="IdentityModel.AspNetCore.OAuth2Introspection" Version="6.1.0" />
-    
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.12" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
   </ItemGroup>
